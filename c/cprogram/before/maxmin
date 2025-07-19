@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <limits.h>
+
+int main(void) {
+  printf("Max: %d, Min: %d", INT_MAX, INT_MIN);
+  return 0;
+}

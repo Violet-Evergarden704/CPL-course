@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    double P,L,T,V,R;
+    R=8.314;
+    scanf("%lf%lf%lf",&P&L&T);
+    V=pow(L,3);
+    n=P*V/(R*T);
+    printf("%.5e",n);
+    return 0;
+}
